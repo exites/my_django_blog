@@ -1,5 +1,5 @@
 {% extends './base.html' %}
-
+{% load static %}
 {% block title %}Главная страница моего блога{% endblock %}
 
 {% block header %}
@@ -12,7 +12,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/third_img.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/third_img.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
               <h4 class="card-title">Заголовок</h4>
               <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
@@ -27,7 +27,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/second_image.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/second_image.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
               <h4 class="card-title">Заголовок</h4>
               <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/first_img.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/first_img.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
             <h4 class="card-title">Заголовок</h4>
             <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
@@ -58,7 +58,7 @@
     
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/first_img.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/first_img.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
               <h4 class="card-title">Заголовок</h4>
               <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
@@ -73,7 +73,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/second_image.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/second_image.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
               <h4 class="card-title">Заголовок</h4>
               <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
@@ -88,7 +88,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/third_img.jpg" alt="" class="card-img-top">
+            <img src="{% static 'img/third_img.jpg' %}" alt="" class="card-img-top">
             <div class="card-body">
               <h4 class="card-title">Заголовок</h4>
               <p class="card-text">Это красткое описание поста. Это красткое описание поста. Это красткое описание поста. </p>
